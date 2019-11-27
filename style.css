@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+}
+
+.poster1{
+position: absolute;
+height: 200px;
+}
+
+.poster2{
+position: relative;
+top: 400px;
+left: 325px;
+height: 200px;
+}
+
+.poster3{
+position: relative;
+top: 0px;
+left: 450px;
+height: 300px;
+}
+
+.poster4{
+position: relative;
+top: -5px;
+left: 775px;
+height: 400px;
+}
+
+.poster5{
+position: relative;
+top: -304px;
+left: -555px;
+height: 200px;
+}
+
+.poster6{
+position: relative;
+top: -204px;
+left: -325px;
+height: 220px;
+}
+
+.poster7{
+position: relative;
+top: -508px;
+left: 260px;
+height: 300px;
+}
+
+.poster8{
+position: relative;
+top: -808px;
+left: 225px;
+height: 200px;
+}
+
+.poster9{
+position: relative;
+top: -308px;
+left: -475px;
+height: 200px;
+}
+
+
+#img{
+
+}
+
+.logo{
+position: relative;
+top: 10%;
+left: 10%;
+height: 200px;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.rectangle {
+position: absolute;
+width: 200px;
+height: 300px;
+background-color: red;
+}
+
+/* sources */
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js */
